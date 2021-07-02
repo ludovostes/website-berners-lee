@@ -9,8 +9,12 @@
 </head>
 
 <body>
-    <header>
-        <p><img src="image/tim_berners_lee.jpg" alt="tim_berners_lee"/></p>
+    <header class="l-header">
+        <div class="l-header-content">
+            <div class="l-header-content-img" >
+                <img class="phototimbl" src="image/tim_berners_lee.jpg" alt="tim_berners_lee"/>
+            </div>
+        </div>
         
         <h1>Tim Berners-Lee</h1>
 
@@ -18,36 +22,49 @@
 
         <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that <br>
         it would be implemented on such an <strong>enormous scale.</strong></p>
-
+        <button><a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">See for yourself</a></button>
     </header>
 
     <nav>
-        <a href="">See for yourself</a>
-
         <ul>
-            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i>_<br>Facebook</a></li>
-            <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i>_<br>Linkedin</a></li>
-            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i>_<br>Twitter</a></li>
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
         </ul>
     </nav>
 
-    <section><article>
-        <h2>His Favorite movies</h2>
+    <section class="c-main-movie">
+        <div class="c-main-movie-content">
+            <h2><span>His</span> Favorite movies</h2>
 
-        <p><img src="image/space_odyssey.jpg" alt="2001"/></p>
-        <h3>2001 - Space Odyssey</h3>
-        <p>Humanity finds a mysterious, obviously artificial, object buried bencath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off <br>
-        on a quest.</p>
-        
-        <p><img src="image/mister_hulot.jpg" alt="mister hulot"/></p>
-        <h3>Monsieur Hulot</h3>
-        <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) cause havoc.</p>
-        
-        <p><img src="image/alien.jpg" alt="alien"/></p>
-        <h3>Alien</h3>
-        <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to <br>
-        realize that a deadly bioform has joined them.</p>
-    </article></section>
+            
+            <div class="c-main-movie-content-item">
+                <img src="image/space_odyssey.jpg" alt="2001"/>
+                <div class="c-main-movie-content-txt">
+                    <h3>2001 - Space Odyssey</h3>
+                    <p>Humanity finds a mysterious, obviously artificial, object buried bencath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off <br>
+                    on a quest.</p>
+                </div>
+            </div>
+
+            <div class="c-main-movie-content-item">
+                <img src="image/mister_hulot.jpg" alt="mister hulot"/>
+                <div class="c-main-movie-content-txt">
+                    <h3>Monsieur Hulot</h3>
+                    <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) cause havoc.</p>
+                </div>
+            </div>
+
+            <div class="c-main-movie-content-item">
+                <img src="image/alien.jpg" alt="alien"/>
+                <div class="c-main-movie-content-txt">
+                    <h3>Alien</h3>
+                    <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to <br>
+                    realize that a deadly bioform has joined them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://kit.fontawesome.com/1451049f14.js" crossorigin="anonymous"></script>
 </body>
